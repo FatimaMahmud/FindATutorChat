@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout"
+        android:background="@color/blue"
+        android:paddingBottom="10dp">
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <TextView
+                android:id="@+id/student_profile_activity_agetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="21"
+                android:textColor="@color/torquise"
+
+                android:layout_below="@+id/student_profile_activity_age"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/student_profile_activity_citytext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Islamabad"
+                android:textColor="@color/torquise"
+                android:layout_below="@+id/student_profile_activity_city"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/student_profile_activity_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:drawableRight="@drawable/profile_city"
+                android:text="City"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/student_profile_activity_phonenotext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0300-6476987"
+                android:textColor="@color/torquise"
+                android:layout_below="@+id/student_profile_activity_phoneno"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/student_profile_activity_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/profile_age"
+                android:text="Age"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/student_profile_activity_phonenotext"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/student_profile_activity_phoneno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:drawableRight="@drawable/profile_sms_phone"
+                android:text="Phone No:"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/student_profile_activity_citytext"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:text="Share My Contact Details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:textColor="@android:color/white"
+                android:id="@+id/share"
+                android:layout_below="@+id/student_profile_activity_agetext"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/torquise"
+        android:paddingBottom="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/image_border"
+            android:longClickable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fatima"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/student_profile_activity_nametext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:text="Name of the Student"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/T_S"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tutor/Student"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_below="@+id/student_profile_activity_nametext"
+            android:layout_alignLeft="@+id/student_profile_activity_nametext"
+            android:layout_alignStart="@+id/student_profile_activity_nametext" />
+    </RelativeLayout>
+
+</RelativeLayout>

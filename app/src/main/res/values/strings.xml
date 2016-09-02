@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">FindATutor</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="want_to_contact">Notify the Tutor to Contact?</string>
+
+    <string name="subscribe_to_news">Subscribe To News</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to news topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string-array name="city_array">
+        <item>Islamabad</item>
+        <item>Lahore</item>
+        <item>Karachi</item>
+        <item>Peshawar</item>
+        <item>Quetta</item>
+        <item>Faisalabad</item>
+        <item>Multan</item>
+        <item>Hyderabad</item>
+        <item>Rawalpindi</item>
+        <item>Sargodha</item>
+        <item>Sialkot</item>
+    </string-array>
+
+    <string-array name="subjects">
+        <item>All</item>
+        <item>English</item>
+        <item>Urdu</item>
+        <item>Maths</item>
+        <item>Computer</item>
+        <item>Chemistry</item>
+        <item>Physics</item>
+        <item>Biology</item>
+        <item>Programming</item>
+    </string-array>
+
+</resources>

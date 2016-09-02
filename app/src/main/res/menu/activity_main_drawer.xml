@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/username"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/placeholder"
+            android:title="Map View" />
+        <item
+            android:id="@+id/nav_listTutors"
+            android:icon="@drawable/profile_experience"
+            android:title="List View" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/plus"
+            android:title="Add a Tutor" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+
+
+    </group>
+
+
+</menu>
